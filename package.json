@@ -1,0 +1,15 @@
+{
+  "name": "hangmanwordgame",
+  "version": "1.0.0",
+  "description": "Hangman word game",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammed S Mahmood",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

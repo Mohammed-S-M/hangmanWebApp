@@ -1,0 +1,88 @@
+// this is the data object
+const dataObject = {
+    animals: [
+        "Albatross", "Alligator", "Antelope", "Armadillo", "Baboon", "Badger",
+        "Bat", "Beagle", "Bear", "Beaver", "Bison", "Boar", "Buffalo", "Bull",
+        "Camel", "Cat", "Chameleon", "Cheetah", "Chihuahua", "Chimpanzee",
+        "Cobra", "Cow", "Crab", "Crocodile", "Crow", "Deer",
+        "Dodo", "Dog", "Dolphin", "Donkey", "Duck", "Eagle", "Eel","Elephant",
+        "Elk", "Emu", "Fish", "Flamingo", "Fox", "Frog", "Giraffe", "Goat", "Goose",
+        "Gorilla", "Hamster", "Hare", "Hawk", "Hedgehog", "Hen", "Hippo",
+        "Horse", "Ibex", "Iguana", "Jackal", "Jaguar", "Jellyfish", "Kangaroo",
+        "Koala", "Lemur", "Leopard", "Lion", "Lizard", "Llama", "Lynx", "Mammoth",
+        "Meerkat", "Mole", "Monkey", "Mouse", "Mule", "Orangutan", "Ostrich",
+        "Otter", "Owl", "Panda", "Panther", "Peacock", "Pigeon", "Polar","Porcupine",
+        "Possum", "Rabbit", "Racoon", "Rat", "Rhinoceros", "shark", "Sheep", "Sloth",
+        "Snake", "Squirrel", "Swan", "Tiger", "Tortoise", "Turtle", "Vulture", 
+        "Whale", "Wolf", "Wombat", "Zebra"
+      ],
+      countries: [
+        "Albania", "Algeria", "Andorra", "Angola", "Argentina", "Armenia",
+        "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados",
+        "Belarus", "Belgium", "Belize", "Benin", "Bolivia", "Botswana", "Brazil","Brunei",
+        "Bulgaria", "Burma", "Burundi", "Cambodia", "Cameroon", "Canada", "Chad", "Chile",
+        "China", "Colombia", "Comoros", "Croatia", "Cuba", "Cyprus", "Czech",
+        "Denmark", "Djibouti", "Dominica", "Ecuador", "Egypt", "Eritrea", "Estonia",
+        "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia","Georgia",
+        "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guyana", "Haiti",
+        "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland",
+        "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati",
+        "Korea", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho",
+        "Liberia", "Libya", "Lithuania", "Luxembourg", "Madagascar", "Malawi",
+        "Malaysia", "Maldives", "Mali", "Malta", "Mauritania", "Mauritius", "Mexico",
+        "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique",
+        "Namibia", "Nauru", "Nepal", "Netherlands", "Nicaragua", "Niger", "Nigeria", "Norway",
+        "Oman", "Pakistan", "Palau", "Panama", "Paraguay", "Peru", "Philippines", "Poland",
+        "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Samoa", "Senegal", "Serbia",
+        "Seychelles", "Singapore", "Slovakia", "Slovenia", "Somalia", "Spain", "Sudan",
+        "Suriname", "Sweden", "Switzerland", "Syria", "Tajikistan", "Tanzania", "Thailand",
+        "Togo", "Tonga", "Tunisia", "Turkey", "Tuvalu", "Uganda", "Ukraine",
+        "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
+      ],
+      houseItems: [
+        "Basket", "Bathtub", "Bed", "Bedsheet", "Blender", "Blind", "Bottle", "Bowl", "Broom",
+        "Bucket", "Calendar", "Carpet", "Chair", "Chimney", "Clock", "Closet", "Comb", "Couch",
+        "Cradle", "Cupboard", "Curtains", "Cutlery", "Desk", "Dishwasher", "Dustbin", "Fan",
+        "Fence", "Fireplace", "Griller", "Hanger", "Iron", "Jar", "Juicer", "Kettle", "Lamp",
+        "Lantern", "Microwave", "Mixer", "Mob", "Napkin", "Photoframe", "Pillow", "Pot",
+        "Refrigerator", "Remote", "Stove", "Stepladder", "Table", "Teapot", "Television",
+        "Toaster", "Towel"
+      ],
+      food: [
+        "asparagus", "apples", "avacado", "alfalfa", "almond", "arugala", "artichoke", "applesauce",
+        "antelope", "Bruscetta", "bagels", "bison", "barley", "bisque", "bluefish", "bread",
+        "broccoli", "buritto", "Cabbage", "cake", "candy", "carrots", "celery", "cheese", "chicken", "catfish",
+        "chips", "chocolate", "chowder", "clams", "coffee", "cookies", "corn", "cupcakes", "crab",
+        "curry", "cereal", "dates", "dips", "duck", "dumplings", "donuts", "eggs",
+        "enchilada", "eggrolls", "edimame", "fajita", "falafel", "fish", "franks", "fondu", "Garlic",
+        "ginger", "gnocchi", "goose", "granola", "grapes", "Guancamole", "gumbo", "grits", "halibut",
+        "hamburger", "honey", "hummus", "jambalaya", "jelly", "jerky", "jalapeno", "kale", "kabobs",
+        "ketchup", "kiwi", "kingfish", "lobster", "Lamb", "Linguine", "Lasagna", "Meatballs",
+        "Moose", "Milk", "Milkshake", "Noodles", "Ostrich", "Pizza", "Pepperoni", "Porter", "Pancakes",
+        "Quesadilla", "Quiche", "Reuben", "Spinach", "Spaghetti", "Toast", "Venison", "Waffles",
+        "Wine", "Walnuts", "Yogurt", "Ziti", "Zucchini"
+      ],
+      randomWords: [
+        "tuba", "singer", "race", "student", "day", "jump", "hurt", "laundry", "blue", "sad",
+        "old", "guitar", "athlete", "night", "knee", "wedding", "buy", "trash", "freckle", "stream",
+        "quiet", "map", "swing", "radio", "square", "school", "bus", "poem", "scared", "draw", "type",
+        "short", "stairs", "asleep", "motorcycle", "lunch", "fog", "new", "straw", "push", "dirty",
+        "girl", "helicopter", "playground", "tornado", "lime", "leg", "salt", "ankle",
+        "shoelace", "wheelchair", "goodbye", "worm", "eyebrow", "pear", "talk", "glasses", "shirt",
+        "spoon", "box", "wind", "green", "snow", "couch", "flashlight", "princess", "dictionary",
+        "plate", "neighbor", "bridge", "mailbox", "flower", "white", "sandcastle", "triangle",
+        "thunder", "monster", "long", "cafeteria", "music", "fire", "star", "cook", "tired","slow", 
+        "space", "brave", "niece", "tractor", "elevator", "light", "cough", "heart",
+        "calculator", "stick", "tree", "house", "fast", "hungry",
+        "red", "frown", "chew", "sick"
+      ],
+      letters: [
+        'A', 'B', 'C', 'D',
+        'E', 'F', 'G', 'H', 
+        'I', 'J', 'K', 'L', 
+        'M', 'N', 'O', 'P', 
+        'Q', 'R', 'S', 'T',
+        'U', 'V', 'W', 'X', 
+        'Y', 'Z'
+    ]
+};

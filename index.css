@@ -1,0 +1,15 @@
+/* importing game fonts */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* font-family: 'Press Start 2P', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+/* font-family: 'Rubik Wet Paint', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+/* font-family: 'Play', sans-serif; */
+
+body {
+  /* background: linear-gradient(to right bottom, #858e96, #60696b); */
+  background-color: cadetblue;
+  font-family: "Play", sans-serif;
+}

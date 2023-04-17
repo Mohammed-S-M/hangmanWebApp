@@ -1,0 +1,302 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .welcome-box {
+    width: 100%;
+    height: 70%;
+  }
+
+  .title {
+    font-size: 4em;
+  }
+
+  .message {
+    font-size: 2em;
+  }
+
+  .start,
+  .play,
+  .exit,
+  .exit-game,
+  .play-again {
+    font-size: 1em;
+  }
+
+  .rules-box ul {
+    font-size: 1.2em;
+  }
+
+  .rules-title {
+    font-size: 4em;
+  }
+
+  .library-box {
+    height: 70%;
+  }
+
+  .library-message {
+    font-size: 2em;
+  }
+
+  .library {
+    font-size: 1.2em;
+  }
+
+  .game-title {
+    font-size: 4em;
+  }
+
+  .stage-image {
+    height: 30%;
+  }
+
+  .lives-container {
+    width: 70%;
+  }
+
+  .lives {
+    width: 3em;
+  }
+
+  .word-container {
+    width: 70%;
+  }
+
+  .dashes {
+    width: 35px;
+    padding: 4px 4px;
+    font-size: 25px;
+  }
+
+  .letters-container {
+    width: 70%;
+  }
+
+  .letters {
+    width: 5em;
+    font-weight: 700;
+  }
+
+  .endGame-box {
+    height: 80%;
+  }
+
+  .final-logo {
+    width: 35%;
+  }
+
+  .final-title {
+    font-size: 4em;
+  }
+
+  .final-message {
+    font-size: 2.5em;
+  }
+
+  .final-text {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1398px) {
+  .welcome-box {
+    width: 100%;
+    height: 90%;
+  }
+
+  .title {
+    font-size: 5em;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .message {
+    font-size: 2em;
+  }
+
+  .start,
+  .play,
+  .exit,
+  .exit-game,
+  .play-again {
+    font-size: 1em;
+  }
+
+  .rules-box ul {
+    font-size: 1.2em;
+  }
+
+  .rules-title {
+    font-size: 4em;
+  }
+
+  .library-box {
+    height: 70%;
+  }
+
+  .library-message {
+    font-size: 2em;
+  }
+
+  .library {
+    font-size: 1.2em;
+  }
+
+  .game-title {
+    font-size: 4em;
+  }
+
+  .stage-image {
+    height: 30%;
+  }
+
+  .lives-container {
+    width: 70%;
+  }
+
+  .lives {
+    width: 3em;
+  }
+
+  .word-container {
+    width: 70%;
+  }
+
+  .dashes {
+    width: 35px;
+    padding: 4px 4px;
+    font-size: 25px;
+  }
+
+  .letters-container {
+    width: 70%;
+  }
+
+  .letters {
+    width: 5em;
+    font-weight: 700;
+  }
+
+  .endGame-box {
+    height: 80%;
+  }
+
+  .final-logo {
+    width: 25%;
+  }
+
+  .final-title {
+    font-size: 4em;
+  }
+
+  .final-message {
+    font-size: 2.5em;
+  }
+
+  .final-text {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1398px) {
+  .welcome-box {
+    width: 100%;
+    height: 90%;
+  }
+
+  .title {
+    font-size: 5em;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .message {
+    font-size: 2em;
+  }
+
+  .start,
+  .play,
+  .exit,
+  .exit-game,
+  .play-again {
+    font-size: 1em;
+  }
+
+  .rules-box ul {
+    font-size: 1.5em;
+  }
+
+  .rules-title {
+    font-size: 5em;
+  }
+
+  .library-box {
+    height: 70%;
+  }
+
+  .library-message {
+    font-size: 2em;
+  }
+
+  .library {
+    font-size: 1.2em;
+  }
+
+  .game-title {
+    font-size: 5em;
+  }
+
+  .stage-image {
+    height: 30%;
+  }
+
+  .lives-container {
+    width: 50%;
+  }
+
+  .lives {
+    width: 3em;
+  }
+
+  .word-container {
+    width: 50%;
+  }
+
+  .dashes {
+    width: 50px;
+    padding: 4px 4px;
+    font-size: 25px;
+  }
+
+  .letters-container {
+    width: 50%;
+  }
+
+  .letters {
+    width: 4em;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  .endGame-box {
+    height: 80%;
+  }
+
+  .final-logo {
+    width: 15%;
+  }
+
+  .final-title {
+    font-size: 4em;
+  }
+
+  .final-message {
+    font-size: 2.5em;
+  }
+
+  .final-text {
+    font-size: 1.5em;
+  }
+}

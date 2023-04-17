@@ -1,0 +1,31 @@
+.library-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.library-box {
+  width: 90%;
+  height: 55%;
+  background: linear-gradient(to right bottom, #ebf4f5, #b5c6e0);
+  border-radius: 2%;
+  box-shadow: 0px 0px 25px 5px grey;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.library-message {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.library {
+  width: 15em;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8em;
+}

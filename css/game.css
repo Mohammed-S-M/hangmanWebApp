@@ -1,0 +1,74 @@
+.game-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-title {
+  height: 6%;
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 3em;
+  color: crimson;
+}
+
+.stage-image {
+  height: 25%;
+}
+
+.lives-container {
+  width: 100%;
+  height: 5%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lives {
+  width: 2em;
+}
+
+.word-container {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dashes {
+  width: 25px;
+  margin: 0 2px;
+  padding: 2px 2px;
+  background-color: blanchedalmond;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.letters-container {
+  width: 100%;
+  height: 35%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.letters {
+  width: 2.5em;
+  margin: 3px 3px;
+}
+
+.exit {
+  margin-top: 40px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8em;
+}
